@@ -1,6 +1,7 @@
 var proxy = require("http-proxy-middleware")
 
 module.exports = {
+  pathPrefix: "/flashjg-gatsby",
   siteMetadata: {
     title: 'Gatsby + Netlify CMS Starter',
     description:
