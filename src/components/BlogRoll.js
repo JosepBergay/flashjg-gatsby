@@ -67,7 +67,10 @@ export default () => (
               frontmatter {
                 title
                 templateKey
-                date(formatString: "MMMM DD, YYYY")
+                date(
+                    fromNow: true
+                    locale: "es"
+                )
               }
             }
           }
