@@ -10,7 +10,7 @@ public_folder: /img
 
 collections:
     - name: "blog"
-      label: "Blog"
+      label: "Noticias"
       folder: "src/pages/blog"
       create: true
       slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
@@ -28,7 +28,7 @@ collections:
           - { label: "Tags", name: "tags", widget: "list" }
 
     - name: "pages"
-      label: "Pages"
+      label: "Páginas"
       files:
           - file: "src/pages/index.md"
             label: "Página principal"
@@ -117,7 +117,7 @@ collections:
                                       ],
                               },
                               {
-                                  label: Baja,
+                                  label: Bajas,
                                   name: out,
                                   widget: list,
                                   fields:
@@ -141,18 +141,45 @@ collections:
                               },
                           ],
                   }
-          # - file: "src/pages/about/index.md"
-          #   label: "About"
-          #   name: "about"
-          #   fields:
-          #       - {
-          #             label: "Template Key",
-          #             name: "templateKey",
-          #             widget: "hidden",
-          #             default: "about-page",
-          #         }
-          #       - { label: "Title", name: "title", widget: "string" }
-          #       - { label: "Body", name: "body", widget: "markdown" }
+                - {
+                      label: My Entrada,
+                      name: myentrada,
+                      widget: object,
+                      fields:
+                          [
+                              {
+                                  label: Ciudades,
+                                  name: cities,
+                                  widget: list,
+                                  fields:
+                                      [
+                                          {
+                                              label: Nombre,
+                                              name: name,
+                                              widget: string,
+                                          },
+                                          {
+                                              label: Imagen,
+                                              name: image,
+                                              widget: image,
+                                          },
+                                      ],
+                              },
+                              { label: Texto, name: text, widget: string },
+                          ],
+                  }
+          - file: "src/pages/about/index.md"
+            label: "INnovamos"
+            name: "about"
+            fields:
+                - {
+                      label: "Template Key",
+                      name: "templateKey",
+                      widget: "hidden",
+                      default: "about-page",
+                  }
+                - { label: "Título", name: "title", widget: "string" }
+                - { label: "Cuerpo", name: "body", widget: "markdown" }
           # - file: "src/pages/products/index.md"
           #   label: "Products Page"
           #   name: "products"

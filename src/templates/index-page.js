@@ -1,9 +1,8 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { Link, graphql } from "gatsby";
+import { graphql } from "gatsby";
 
 import Layout from "../components/Layout";
-import BlogRoll from "../components/BlogRoll";
 import Birthdays from "../components/Birthdays";
 import InAndOut from "../components/InAndOut";
 
@@ -15,7 +14,8 @@ export const IndexPageTemplate = ({
     mainpitch,
     description,
     birthdays,
-    inandout
+    inandout,
+    myentrada
 }) => (
     <div>
         <div
@@ -86,7 +86,7 @@ export const IndexPageTemplate = ({
                                         </h1>
                                     </div>
                                     <div className="tile">
-                                        <h3 className="subtitle">
+                                        <h3 className="subtitle" style={{justifyContent: "center"}}>
                                             {mainpitch.description}
                                         </h3>
                                     </div>
@@ -100,18 +100,53 @@ export const IndexPageTemplate = ({
                                     </div>
                                 </div>
                                 <Birthdays birthdays={birthdays} />
-                                <InAndOut inandout={inandout}/>
-                                <div className="column is-12">
-                                    <h3 className="has-text-weight-semibold is-size-2">
-                                        Latest stories
-                                    </h3>
-                                    <BlogRoll />
-                                    <div className="column is-12 has-text-centered">
-                                        <Link className="btn" to="/blog">
-                                            Read more
-                                        </Link>
+                                <InAndOut inandout={inandout} />
+                                {myentrada &&
+                                myentrada.cities &&
+                                myentrada.cities.length ? (
+                                    <div className="column is-12">
+                                        <img
+                                            src="/img/my-entrada.png"
+                                            alt="my-entrada"
+                                        />
+                                        <ul className="taglist">
+                                            {myentrada.cities.map((c, i) => (
+                                                <li key={i}>
+                                                    <div>
+                                                        <h3 className="has-text-weight-semibold">
+                                                            {c.name}
+                                                        </h3>
+                                                        <img
+                                                            src={
+                                                                !!c.image
+                                                                    .childImageSharp
+                                                                    ? c.image
+                                                                          .childImageSharp
+                                                                          .fluid
+                                                                          .src
+                                                                    : c.image
+                                                            }
+                                                            alt="my-entrada"
+                                                        />
+                                                    </div>
+                                                </li>
+                                            ))}
+                                            <li key={-1}>
+                                                <span>{myentrada.text}</span>
+                                            </li>
+                                        </ul>
+                                        <div className="column is-12 has-text-centered">
+                                            <a
+                                                className="btn"
+                                                href="https://myentrada.com"
+                                            >
+                                                Ir a my entrada
+                                            </a>
+                                        </div>
                                     </div>
-                                </div>
+                                ) : (
+                                    <div />
+                                )}
                             </div>
                         </div>
                     </div>
@@ -146,6 +181,7 @@ const IndexPage = ({ data }) => {
                 description={frontmatter.description}
                 birthdays={frontmatter.birthdays}
                 inandout={frontmatter.inandout}
+                myentrada={frontmatter.myentrada}
             />
         </Layout>
     );
@@ -191,20 +227,33 @@ export const pageQuery = graphql`
                     }
                     items {
                         name
-                        date(formatString: "LL", locale: "es")
+                        date(formatString: "D MMMM", locale: "es")
                     }
                 }
                 inandout {
-                  in {
-                    name
-                    location
-                    firstday(formatString: "LL", locale: "es")
-                  }
-                  out {
-                    name
-                    location
-                    lastday(formatString: "LL", locale: "es")
-                  }
+                    in {
+                        name
+                        location
+                        firstday(formatString: "LL", locale: "es")
+                    }
+                    out {
+                        name
+                        location
+                        lastday(formatString: "LL", locale: "es")
+                    }
+                }
+                myentrada {
+                    text
+                    cities {
+                        name
+                        image {
+                            childImageSharp {
+                                fluid(maxWidth: 2048, quality: 64) {
+                                    ...GatsbyImageSharpFluid
+                                }
+                            }
+                        }
+                    }
                 }
             }
         }

@@ -6,8 +6,8 @@ const In = ({ ins }) => {
         <div className="column is-6">
             <h3 className="has-text-weight-semibold">Altas</h3>
             <ul className="menu-list">
-                {ins.map(i => (
-                    <li key={i.name} className="content box">
+                {ins.map((i, j)=> (
+                    <li key={j} className="content box notification">
                         <h4>{i.name}</h4>
                         <span>
                             {i.location}
@@ -26,8 +26,8 @@ const Out = ({ outs }) => {
         <div className="column is-6">
             <h3 className="has-text-weight-semibold">Bajas</h3>
             <ul className="menu-list">
-                {outs.map(i => (
-                    <li key={i.name} className="content box">
+                {outs.map((i, j) => (
+                    <li key={j} className="content box notification">
                         <h4>{i.name}</h4>
                         <span>
                             {i.location}
