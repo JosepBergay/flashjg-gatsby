@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { Link } from 'gatsby'
 import Layout from '../../components/Layout'
 import BlogRoll from '../../components/BlogRoll'
 
@@ -28,6 +28,9 @@ export default class BlogIndexPage extends React.Component {
         <section className="section">
           <div className="container">
             <div className="content">
+              <Link className="btn" to="/tags" style={{marginBottom: "50px"}}>
+                Buscar por Tags
+              </Link>
               <BlogRoll />
             </div>
           </div>
