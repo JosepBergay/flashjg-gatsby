@@ -22,7 +22,7 @@ class BlogRoll extends React.Component {
                   </Link>
                   <span> &bull; </span>
                   <span className="subtitle is-size-5 is-block">
-                    {post.frontmatter.date}
+                    {post.frontmatter.author} {post.frontmatter.date}
                   </span>
                 </p>
                 <p>
@@ -30,7 +30,7 @@ class BlogRoll extends React.Component {
                   <br />
                   <br />
                   <Link className="button" to={post.fields.slug}>
-                    Keep Reading →
+                    Leer más →
                   </Link>
                 </p>
               </article>
@@ -71,6 +71,7 @@ export default () => (
                     fromNow: true
                     locale: "es"
                 )
+                author
               }
             }
           }

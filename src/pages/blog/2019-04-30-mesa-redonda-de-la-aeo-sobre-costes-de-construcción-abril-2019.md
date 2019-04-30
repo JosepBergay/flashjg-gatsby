@@ -3,10 +3,10 @@ templateKey: blog-post
 title: Mesa redonda de la AEO sobre costes de construcción (abril 2019)
 date: 2019-04-30T13:08:45.685Z
 description: ' '
+author: Josep Túnica
 tags:
   - construcción
   - aeo
-  - ''
 ---
  La AEO (Asociación Española de Oficinas) de la cual somos miembros, ha organizado en las oficinas SPACES de Madrid una mesa redonda con el título 'costes de construcción en el mercado de oficinas. ¿Cómo responde el sector al crecimiento continuo de precios?'
 
