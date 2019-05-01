@@ -21,10 +21,11 @@ collections:
                 widget: "hidden",
                 default: "blog-post",
             }
-          - { label: "Title", name: "title", widget: "string" }
-          - { label: "Publish Date", name: "date", widget: "datetime" }
-          - { label: "Description", name: "description", widget: "text" }
-          - { label: "Body", name: "body", widget: "markdown" }
+          - { label: "Título", name: "title", widget: "string" }
+          - { label: "Fecha publicación", name: "date", widget: "datetime" }
+          - { label: "Autor", name: "author", widget: "text" }
+          - { label: "Descripción", name: "description", widget: "text" }
+          - { label: "Cuerpo", name: "body", widget: "markdown" }
           - { label: "Tags", name: "tags", widget: "list" }
 
     - name: "pages"

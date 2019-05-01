@@ -9,62 +9,53 @@
 /sw.js
   Cache-Control: no-cache
 /flashjg-gatsby/
-  Link: </flashjg-gatsby/webpack-runtime-e775a596d394d978e50d.js>; rel=preload; as=script
-  Link: </flashjg-gatsby/styles.00c2caef25d495e02e39.css>; rel=preload; as=script
-/flashjg-gatsby/blog/2016-12-17-making-sense-of-the-scaas-new-flavor-wheel/
-  Link: </flashjg-gatsby/webpack-runtime-e775a596d394d978e50d.js>; rel=preload; as=script
+  Link: </flashjg-gatsby/webpack-runtime-26d8be466c34e5455b7a.js>; rel=preload; as=script
   Link: </flashjg-gatsby/styles.00c2caef25d495e02e39.css>; rel=preload; as=script
 /flashjg-gatsby/about/
-  Link: </flashjg-gatsby/webpack-runtime-e775a596d394d978e50d.js>; rel=preload; as=script
+  Link: </flashjg-gatsby/webpack-runtime-26d8be466c34e5455b7a.js>; rel=preload; as=script
   Link: </flashjg-gatsby/styles.00c2caef25d495e02e39.css>; rel=preload; as=script
-/flashjg-gatsby/blog/2017-01-04-a-beginners-guide-to-brewing-with-chemex/
-  Link: </flashjg-gatsby/webpack-runtime-e775a596d394d978e50d.js>; rel=preload; as=script
-  Link: </flashjg-gatsby/styles.00c2caef25d495e02e39.css>; rel=preload; as=script
-/flashjg-gatsby/blog/2017-01-04-just-in-small-batch-of-jamaican-blue-mountain-in-store-next-week/
-  Link: </flashjg-gatsby/webpack-runtime-e775a596d394d978e50d.js>; rel=preload; as=script
+/flashjg-gatsby/blog/2019-04-30-manttestmobile-disponible-en-google-play/
+  Link: </flashjg-gatsby/webpack-runtime-26d8be466c34e5455b7a.js>; rel=preload; as=script
   Link: </flashjg-gatsby/styles.00c2caef25d495e02e39.css>; rel=preload; as=script
 /flashjg-gatsby/products/
-  Link: </flashjg-gatsby/webpack-runtime-e775a596d394d978e50d.js>; rel=preload; as=script
+  Link: </flashjg-gatsby/webpack-runtime-26d8be466c34e5455b7a.js>; rel=preload; as=script
   Link: </flashjg-gatsby/styles.00c2caef25d495e02e39.css>; rel=preload; as=script
-/flashjg-gatsby/tags/flavor/
-  Link: </flashjg-gatsby/webpack-runtime-e775a596d394d978e50d.js>; rel=preload; as=script
+/flashjg-gatsby/blog/2019-04-30-mesa-redonda-de-la-aeo-sobre-costes-de-construcción-abril-2019/
+  Link: </flashjg-gatsby/webpack-runtime-26d8be466c34e5455b7a.js>; rel=preload; as=script
   Link: </flashjg-gatsby/styles.00c2caef25d495e02e39.css>; rel=preload; as=script
-/flashjg-gatsby/tags/tasting/
-  Link: </flashjg-gatsby/webpack-runtime-e775a596d394d978e50d.js>; rel=preload; as=script
+/flashjg-gatsby/tags/mant-test/
+  Link: </flashjg-gatsby/webpack-runtime-26d8be466c34e5455b7a.js>; rel=preload; as=script
   Link: </flashjg-gatsby/styles.00c2caef25d495e02e39.css>; rel=preload; as=script
-/flashjg-gatsby/tags/brewing/
-  Link: </flashjg-gatsby/webpack-runtime-e775a596d394d978e50d.js>; rel=preload; as=script
+/flashjg-gatsby/tags/test-jg/
+  Link: </flashjg-gatsby/webpack-runtime-26d8be466c34e5455b7a.js>; rel=preload; as=script
   Link: </flashjg-gatsby/styles.00c2caef25d495e02e39.css>; rel=preload; as=script
-/flashjg-gatsby/tags/chemex/
-  Link: </flashjg-gatsby/webpack-runtime-e775a596d394d978e50d.js>; rel=preload; as=script
+/flashjg-gatsby/tags/construccion/
+  Link: </flashjg-gatsby/webpack-runtime-26d8be466c34e5455b7a.js>; rel=preload; as=script
   Link: </flashjg-gatsby/styles.00c2caef25d495e02e39.css>; rel=preload; as=script
-/flashjg-gatsby/tags/jamaica/
-  Link: </flashjg-gatsby/webpack-runtime-e775a596d394d978e50d.js>; rel=preload; as=script
-  Link: </flashjg-gatsby/styles.00c2caef25d495e02e39.css>; rel=preload; as=script
-/flashjg-gatsby/tags/green-beans/
-  Link: </flashjg-gatsby/webpack-runtime-e775a596d394d978e50d.js>; rel=preload; as=script
+/flashjg-gatsby/tags/aeo/
+  Link: </flashjg-gatsby/webpack-runtime-26d8be466c34e5455b7a.js>; rel=preload; as=script
   Link: </flashjg-gatsby/styles.00c2caef25d495e02e39.css>; rel=preload; as=script
 /flashjg-gatsby/404/
-  Link: </flashjg-gatsby/webpack-runtime-e775a596d394d978e50d.js>; rel=preload; as=script
+  Link: </flashjg-gatsby/webpack-runtime-26d8be466c34e5455b7a.js>; rel=preload; as=script
   Link: </flashjg-gatsby/styles.00c2caef25d495e02e39.css>; rel=preload; as=script
 /flashjg-gatsby/blog/
-  Link: </flashjg-gatsby/webpack-runtime-e775a596d394d978e50d.js>; rel=preload; as=script
+  Link: </flashjg-gatsby/webpack-runtime-26d8be466c34e5455b7a.js>; rel=preload; as=script
   Link: </flashjg-gatsby/styles.00c2caef25d495e02e39.css>; rel=preload; as=script
 /flashjg-gatsby/contact/examples/
-  Link: </flashjg-gatsby/webpack-runtime-e775a596d394d978e50d.js>; rel=preload; as=script
+  Link: </flashjg-gatsby/webpack-runtime-26d8be466c34e5455b7a.js>; rel=preload; as=script
   Link: </flashjg-gatsby/styles.00c2caef25d495e02e39.css>; rel=preload; as=script
 /flashjg-gatsby/contact/file-upload/
-  Link: </flashjg-gatsby/webpack-runtime-e775a596d394d978e50d.js>; rel=preload; as=script
+  Link: </flashjg-gatsby/webpack-runtime-26d8be466c34e5455b7a.js>; rel=preload; as=script
   Link: </flashjg-gatsby/styles.00c2caef25d495e02e39.css>; rel=preload; as=script
 /flashjg-gatsby/contact/
-  Link: </flashjg-gatsby/webpack-runtime-e775a596d394d978e50d.js>; rel=preload; as=script
+  Link: </flashjg-gatsby/webpack-runtime-26d8be466c34e5455b7a.js>; rel=preload; as=script
   Link: </flashjg-gatsby/styles.00c2caef25d495e02e39.css>; rel=preload; as=script
 /flashjg-gatsby/contact/thanks/
-  Link: </flashjg-gatsby/webpack-runtime-e775a596d394d978e50d.js>; rel=preload; as=script
+  Link: </flashjg-gatsby/webpack-runtime-26d8be466c34e5455b7a.js>; rel=preload; as=script
   Link: </flashjg-gatsby/styles.00c2caef25d495e02e39.css>; rel=preload; as=script
 /flashjg-gatsby/tags/
-  Link: </flashjg-gatsby/webpack-runtime-e775a596d394d978e50d.js>; rel=preload; as=script
+  Link: </flashjg-gatsby/webpack-runtime-26d8be466c34e5455b7a.js>; rel=preload; as=script
   Link: </flashjg-gatsby/styles.00c2caef25d495e02e39.css>; rel=preload; as=script
 /flashjg-gatsby/404.html
-  Link: </flashjg-gatsby/webpack-runtime-e775a596d394d978e50d.js>; rel=preload; as=script
+  Link: </flashjg-gatsby/webpack-runtime-26d8be466c34e5455b7a.js>; rel=preload; as=script
   Link: </flashjg-gatsby/styles.00c2caef25d495e02e39.css>; rel=preload; as=script
