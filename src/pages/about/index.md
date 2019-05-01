@@ -30,6 +30,6 @@ Para el propio equipo del Flash, implica un nuevo editor de contenido. Éste per
 
 Como una imagen vale más que mil palabras. Me he tomado el tiempo de investigar y crear este prototipo para que se vea que realmente las posibilidades son infinitas. El diseño escogido es muy subjetivo y seguramente no es el más acertado. Todo es completamente configurable y se puede rehacer.
 
-Si accedéis al apartado para [administradores](https://lucid-goldberg-369fe6.netlify.com/admin) y os autenticáis (usuario: FlashJGEditor, contraseña: Flash_JG_Editor_1), podréis usar el editor de contenido. Probad a editar el título de la página principal o a crear una nueva noticia. 
+Si accedéis al apartado para [administradores](https://lucid-goldberg-369fe6.netlify.com/admin) y os autenticáis (`usuario: FlashJGEditor, contraseña: Flash_JG_Editor_1`), podréis usar el editor de contenido. Probad a editar el título de la página principal o a crear una nueva noticia. 
 
 En unos minutos estará el sitio web actualizado con la nueva noticia en el [blog](https://lucid-goldberg-369fe6.netlify.com/blog), ¡más fácil imposible!
